@@ -1,0 +1,291 @@
+.navbar {
+    background-color: #7587a7;
+}
+
+    .navbar .navbar-brand {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-brand:hover,
+        .navbar .navbar-brand:focus {
+            color: #ffc107;
+        }
+
+    .navbar .navbar-text {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-text a {
+            color: #ffc107;
+        }
+
+            .navbar .navbar-text a:hover,
+            .navbar .navbar-text a:focus {
+                color: #ffc107;
+            }
+
+    .navbar .navbar-nav .nav-link {
+        color: #ecf0f1;
+        border-radius: .25rem;
+        margin: 0 0.25em;
+    }
+
+        .navbar .navbar-nav .nav-link:not(.disabled):hover,
+        .navbar .navbar-nav .nav-link:not(.disabled):focus {
+            color: #ffc107;
+        }
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link:hover,
+    .navbar .navbar-nav .nav-item.active .nav-link:focus,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+        color: #ffc107;
+        background-color: #566787;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: #566787;
+    }
+
+        .navbar .navbar-toggle:hover,
+        .navbar .navbar-toggle:focus {
+            background-color: #566787;
+        }
+
+        .navbar .navbar-toggle .navbar-toggler-icon {
+            color: #ecf0f1;
+        }
+
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+        border-color: #ecf0f1;
+    }
+
+    .navbar .navbar-link {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-link:hover {
+            color: #ffc107;
+        }
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffc107;
+    }
+
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffc107;
+        background-color: #566787;
+    }
+/*
+
+    NOT NAVBAR
+
+*/
+
+/* Limits the size that jumbotron ocupies after what is inside it 
+.jumbotron {
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
+    */
+.jumbotron {
+    padding-top: 38px;
+    padding-bottom: 0px;
+}
+
+.top_form_div {
+    background-color: #dee2e6;
+    padding-top: 38px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+.top_form {
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+input.radio_in_jumbotron {
+    display: inline;
+}
+/* solved the problem of material icons not aligned with text */
+.material-icons, .icon-text {
+    vertical-align: middle;
+}
+
+.after_my_navbar {
+    padding-top: 38px;
+}
+
+.form-control-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-append > .btn, .input-group-sm > .input-group-append > .input-group-text, .input-group-sm > .input-group-prepend > .btn, .input-group-sm > .input-group-prepend > .input-group-text {
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    line-height: 1;
+    border-radius: .2rem;
+}
+
+
+/* Used to construct tabs on a page */
+/* nav-tabs nav-item nav-link */
+
+.nav-tabs {
+    background-color: #ffffff;
+}
+
+
+    .nav-tabs .nav-item .nav-link {
+        color: #000000;
+        border-color: dee2e6;
+    }
+
+
+        .nav-tabs .nav-item .nav-link:hover {
+            border-color: #c0392b
+        }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        border-color: #ecf0f1;
+        color: #ffbbbc;
+        background-color: #c0392b;
+    }
+
+
+/* Used to construct scrool lists like the one in process structure */
+
+nav.scrool_list {
+    padding-left: 2px;
+}
+
+nav ul.scrool_list {
+    height: 460px;
+    width: 95%;
+    overflow: hidden;
+    overflow-y: scroll;
+    list-style-type: none;
+    margin: auto;
+    padding-left: 1px;
+    background: #bbbbbb;
+}
+
+    nav ul.scrool_list li {
+        margin: 1px;
+        background: #eeeeee;
+    }
+
+        nav ul.scrool_list li a {
+            width: 100%;
+        }
+
+
+            nav ul.scrool_list li a.btn-light:hover, a.btn-light:focus /*,a.btn-light:active, a.btn-light.active*/ {
+                color: #fff;
+                background-color: #566787;
+                border-color: #285e8e; /*set the color you want here*/
+            }
+
+/* Creates the backgroung figure */
+
+.bg {
+    /* The image used */
+    background-image: url("http://www.catena-ca.com.br/background_c.jpg");
+    /*https://image.shutterstock.com/image-vector/grey-geometric-technology-background-gear-260nw-520969510.jpg*/
+    /* Full height */
+    min-width: 100%;
+    min-height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+}
+
+
+a.btn.btn-proativ {
+    color: #fff !important;
+    background-color: #7587a7 !important;
+    border-color: #7587a7 !important;
+}
+
+    a.btn.btn-proativ:hover,
+    a.btn.btn-proativ:focus {
+        background-color: #566787 !important;
+        border-color: #566787 !important;
+    }
+

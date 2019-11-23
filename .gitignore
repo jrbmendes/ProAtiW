@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+#Database file
+db.sqlite3
+app/migrations/
+
+# uploaded files
+media/

@@ -43,3 +43,16 @@ def about(request):
             'year':datetime.now().year,
         }
     )
+
+
+def testBootstrap(request):
+    """Renders the home page."""
+    assert isinstance(request, HttpRequest)
+    return render(
+        request,
+        'app/testBootstrap.html',
+        {
+            'title':'Home Page',
+            'year':datetime.now().year,
+        }
+    )

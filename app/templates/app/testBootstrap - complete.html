@@ -1,0 +1,392 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" crossorigin="anonymous">
+
+
+<style>
+
+    .navbar {
+    background-color: #7587a7;
+}
+
+    .navbar .navbar-brand {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-brand:hover,
+        .navbar .navbar-brand:focus {
+            color: #ffc107;
+        }
+
+    .navbar .navbar-text {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-text a {
+            color: #ffc107;
+        }
+
+            .navbar .navbar-text a:hover,
+            .navbar .navbar-text a:focus {
+                color: #ffc107;
+            }
+
+    .navbar .navbar-nav .nav-link {
+        color: #ecf0f1;
+        border-radius: .25rem;
+        margin: 0 0.25em;
+    }
+
+        .navbar .navbar-nav .nav-link:not(.disabled):hover,
+        .navbar .navbar-nav .nav-link:not(.disabled):focus {
+            color: #ffc107;
+        }
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link:hover,
+    .navbar .navbar-nav .nav-item.active .nav-link:focus,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+        color: #ffc107;
+        background-color: #566787;
+    }
+
+    .navbar .navbar-toggle {
+        border-color: #566787;
+    }
+
+        .navbar .navbar-toggle:hover,
+        .navbar .navbar-toggle:focus {
+            background-color: #566787;
+        }
+
+        .navbar .navbar-toggle .navbar-toggler-icon {
+            color: #ecf0f1;
+        }
+
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+        border-color: #ecf0f1;
+    }
+
+    .navbar .navbar-link {
+        color: #ecf0f1;
+    }
+
+        .navbar .navbar-link:hover {
+            color: #ffc107;
+        }
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+            color: #ffc107;
+        }
+
+        .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+            color: #ffc107;
+            background-color: #566787;
+        }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffc107;
+    }
+
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffc107;
+        background-color: #566787;
+    }
+/*
+
+    NOT NAVBAR
+
+*/
+
+/* Limits the size that jumbotron ocupies after what is inside it 
+.jumbotron {
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
+    */
+.jumbotron {
+    padding-top: 38px;
+    padding-bottom: 0px;
+}
+
+.top_form_div {
+    background-color: #dee2e6;
+    padding-top: 38px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+.top_form {
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+input.radio_in_jumbotron {
+    display: inline;
+}
+/* solved the problem of material icons not aligned with text */
+.material-icons, .icon-text {
+    vertical-align: middle;
+}
+
+.after_my_navbar {
+    padding-top: 58px;
+}
+
+.form-control-sm, .input-group-sm > .form-control, .input-group-sm > .input-group-append > .btn, .input-group-sm > .input-group-append > .input-group-text, .input-group-sm > .input-group-prepend > .btn, .input-group-sm > .input-group-prepend > .input-group-text {
+    padding: .25rem .5rem;
+    font-size: .7rem;
+    line-height: 1;
+    border-radius: .2rem;
+}
+
+
+/* nav-tabs nav-item nav-link */
+
+
+.nav-tabs {
+    background-color: #ffffff;
+}
+
+
+    .nav-tabs .nav-item .nav-link {
+        color: #000000;
+        border-color: dee2e6;
+    }
+
+
+        .nav-tabs .nav-item .nav-link:hover {
+            border-color: #c0392b
+        }
+
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+            border-color: #ecf0f1;
+            color: #ffbbbc;
+            background-color: #c0392b;
+        }
+
+
+
+    nav.scrool_list{
+                      padding-left: 2px;
+    }
+
+    nav ul.scrool_list{height:460px; width:95%;
+                       overflow:hidden; overflow-y:scroll;
+                       list-style-type: none;
+    margin: auto;
+                       padding-left: 1px;
+                       background: #bbbbbb;
+
+    }
+    nav ul.scrool_list li{
+                       margin: 1px;
+                       background: #eeeeee;                 
+    }
+
+    nav ul.scrool_list li a{
+                       width: 100%;
+    }
+
+
+    nav ul.scrool_list li a.btn-light:hover, a.btn-light:focus /*,a.btn-light:active, a.btn-light.active*/ {
+                    color: #fff;
+                    background-color: #566787;
+                    border-color: #285e8e; /*set the color you want here*/
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("http://www.catena-ca.com.br/background.jpg");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+</style>
+      
+    <title>ProAtiW</title>
+  </head>
+  <body class="bg">
+
+    <nav class="navbar navbar-expand-md navbar-light bg-faded navbar-fixed-top">
+        <a class="navbar-brand" href="{% url 'home' %}"> <b class="text-warning">Pro</b>AtiW</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        {% if user.is_authenticated %}
+        <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item {{switch_nav_active.Dashboard}}">
+                    <a class="nav-link" ">Visão Sistêmica </a>
+                </li>
+                <li class="nav-item {{switch_nav_active.Requirements}}">
+                    <a class="nav-link">Processos</a>
+                </li>
+                <li class="nav-item {{switch_nav_active.Requirements}}">
+                    <a class="nav-link">Organização</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Relatórios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/charts/adjustsChart/">Adjustments Chart</a>
+                        <a class="dropdown-item" href="/charts/paymentsChart/">Payments Chart</a>
+                        <a class="dropdown-item" href="/charts/requirementStatusChart/">Requirement Status Chart</a>
+                        <!-- <div class="dropdown-divider"></div>-->
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'logout' %}">Logout <b>{{user}}</b></a>
+                </li>
+            </ul>
+        </div>
+        {% else %}
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'login' %}">Login</a>
+                </li>
+            </ul>
+        </div>
+        {% endif %}
+
+    </nav>
+
+
+<div class="content">
+    <h4>Estrutura de Processos</h4>
+    <div class="purple-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"></div>
+
+    <div class="row ">
+
+        <!-- begin snippet: js hide: false console: true babel: null -->
+        <div class="col scrool_list col-md-3 ">
+            <header><b>Caminho da Atividade</b></header>
+            <nav class="scrool_list">
+                <ul class="scrool_list">
+
+                    <li><a href="#" class="btn btn-light text-left">A001_0 - Gestão da Empresa</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_01 - Processos de Gestão</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_011 - Realizar Gestão do Societário</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class='col col-sm-6 text-center'>
+            <br />
+            <img class="img-fluid" style="border:1px solid #aaaaaa" src="http://www.catena-ca.com.br/A001_0111.jpg" />
+        </div>
+        <div class="col col-md-3">
+            <header><b>Filhos da Atividade</b></header>
+            <nav class="scrool_list">
+                <ul class="scrool_list">
+                    <li><a href="#" class="btn btn-light text-left">A001_0111344 - Controlar Cronograma de Assembléia</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_0111345 - Convocar Reunião de Assembléia</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_0111346 - Registrar Reunião de Assembléia</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_0111347 - Elaborar Ata de Reunião de Assembléia</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_0111348 - Registrar Ata de Reunião de Assembléia</a></li>
+                    <li><a href="#" class="btn btn-light text-left">A001_0111349 - Realizar Publicação em Jornais</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>      
+
+      <!-- end snippet -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js" integrity="sha384-L2pyEeut/H3mtgCBaUNw7KWzp5n9+4pDQiExs933/5QfaTh8YStYFFkOzSoXjlTb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
